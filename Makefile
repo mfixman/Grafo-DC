@@ -5,3 +5,7 @@ svg: Graph.dot
 
 png: Graph.dot
 	dot -Tpng Graph.dot -o Graph.png
+
+clean:
+	rm -rf Graph.png Graph.svg
+
