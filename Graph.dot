@@ -1,0 +1,84 @@
+digraph
+{
+	charset = latin1 ;
+	normalize = true ;
+	rankdir = LR ;
+
+	node [shape = box, style = rounded, color=black] ;
+	edge [color=black] ;
+
+	0 [label = "Álgebra I"] ;
+	1 [label = "Análisis II"] ;
+	2 [label = "Algoritmos y Estructuras de Datos I"] ;
+	3 [label = "Métodos Númericos"] ;
+	4 [label = "Probabilidad y Estadistica"] ;
+	5 [label = "Teoría de las Comunicaciones"] ;
+	6 [label = "Algoritmos y Estructudas de Datos II"] ;
+	7 [label = "Organización del Computador I"] ;
+	8 [label = "Lógica y Computabilidad"] ;
+	9 [label = "Algoritmos y Estructuras de Datos III"] ;
+	10 [label = "Sistemas Operativos"] ;
+	11 [label = "Organización del Computador II"] ;
+	12 [label = "Teoría de Lenguajes"] ;
+	13 [label = "Paradigmas de los Lenguajes de Programación"] ;
+	14 [label = "Ingeniería de Software I"] ;
+	15 [label = "Bases de Datos"] ;
+	16 [label = "Ingeniería de Software II"] ;
+
+	0 -> 2 ;
+	2 -> 3 ;
+	1 -> 4 ;
+	1 -> 5 ;
+	4 -> 3 ;
+
+	2 -> 6 ;
+	2 -> 7 ;
+	6 -> 8 ;
+	6 -> 9 ;
+	6 -> 10 ;
+	7 -> 11 ;
+	11 -> 10 ;
+	8 -> 12 ;
+	8 -> 13 ;
+	9 -> 14 ;
+	14 -> 15 ;
+	10 -> 16 ;
+	14 -> 16 ;
+	13 -> 16 ;
+
+	node [color = blue, fontcolor=blue] ;
+	edge [color = blue] ;
+	17 [label = "Aprendizaje Automático (3)"] ;
+	18 [label = "Combinatoria, Complejidad y Lógica (3)"] ;
+	19 [label = "Compresión de Imágenes Digitales (3)"] ;
+	20 [label = "Diseño de Sistemas con FPGA (3)"] ;
+	21 [label = "Fundamentos de Concurrencia y Movilidad (3)"] ;
+	22 [label = "Gestión de Proyectos de Procesos de Software (3)"] ;
+	23 [label = "Introducción de la Fotografía 3D (1)"] ;
+	24 [label = "Metaheurísticas (2)"] ;
+	25 [label = "Programación Orientada a Objetos (3)"] ;
+	26 [label = "Seminario Avanzado de Teoría de Grafos (2)"] ;
+	27 [label = "Redes Neuronales (3)"] ;
+	28 [label = "Computabilidad y Teoría de Modelos (2)"] ;
+	29 [label = "Visión en Robótica (3)"] ;
+	30 [label = "Laboratorio de Redes Neuronales (3)"] ;
+	31 [label = "Teoría de la Computabilidad (3)"] ;
+
+	8 -> 17 ;
+	8 -> 18 ;
+	3 -> 19 ;
+	7 -> 20 ;
+	13 -> 21 ;
+	14 -> 22 ;
+	3 -> 23 ;
+	9 -> 24 ;
+	6 -> 25 ;
+	9 -> 26 ;
+	4 -> 27 ;
+	8 -> 28 ;
+	3 -> 29 ;
+	4 -> 29 ;
+	27 -> 30 ;
+	8 -> 31 ; // Dudoso, preguntar.
+}
+
