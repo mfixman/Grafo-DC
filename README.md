@@ -8,5 +8,5 @@ que dan en el curso de grado.
 
 Requiere Graphviz (http://www.graphviz.org/) para compilar.
 
-![Grafo](http://i.imgur.com/ewFDtgq.png)
+![Grafo](https://raw.github.com/Fixman/Grafo-DC/master/Graph.png)
 
