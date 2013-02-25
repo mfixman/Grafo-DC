@@ -46,8 +46,8 @@ digraph
 	14 -> 16 ;
 	13 -> 16 ;
 
-	node [color = blue, fontcolor=blue] ;
-	edge [color = blue] ;
+	node [color = navyblue, fontcolor=navyblue] ;
+	edge [color = navyblue] ;
 	17 [label = "Aprendizaje Automático (3)"] ;
 	18 [label = "Combinatoria, Complejidad y Lógica (3)"] ;
 	19 [label = "Compresión de Imágenes Digitales (3)"] ;
