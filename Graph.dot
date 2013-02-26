@@ -46,6 +46,7 @@ digraph
 	10 -> 16 ;
 	14 -> 16 ;
 	13 -> 16 ;
+	10 -> 15 ;
 
 	node [color = navyblue, fontcolor=navyblue] ;
 	edge [color = navyblue] ;
