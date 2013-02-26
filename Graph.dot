@@ -9,21 +9,21 @@ digraph
 
 	0 [label = "Álgebra I"] ;
 	1 [label = "Análisis II"] ;
-	2 [label = "Algoritmos y Estructuras de Datos I"] ;
+	2 [label = "Algoritmos\ny Estructuras\nde Datos I"] ;
 	3 [label = "Métodos Númericos"] ;
-	4 [label = "Probabilidad y Estadistica"] ;
-	5 [label = "Teoría de las Comunicaciones"] ;
-	6 [label = "Algoritmos y Estructudas de Datos II"] ;
-	7 [label = "Organización del Computador I"] ;
+	4 [label = "Probabilidad\ny Estadistica"] ;
+	5 [label = "Teoría de las\nComunicaciones"] ;
+	6 [label = "Algoritmos\ny Estructudas\nde Datos II"] ;
+	7 [label = "Organización\ndel Computador I"] ;
 	8 [label = "Lógica y Computabilidad"] ;
-	9 [label = "Algoritmos y Estructuras de Datos III"] ;
+	9 [label = "Algoritmos\ny Estructuras\nde Datos III"] ;
 	10 [label = "Sistemas Operativos"] ;
-	11 [label = "Organización del Computador II"] ;
+	11 [label = "Organización\ndel Computador II"] ;
 	12 [label = "Teoría de Lenguajes"] ;
-	13 [label = "Paradigmas de los Lenguajes de Programación"] ;
-	14 [label = "Ingeniería de Software I"] ;
+	13 [label = "Paradigmas\nde los Lenguajes\nde Programación"] ;
+	14 [label = "Ingeniería\nde Software I"] ;
 	15 [label = "Bases de Datos"] ;
-	16 [label = "Ingeniería de Software II"] ;
+	16 [label = "Ingeniería\nde Software II"] ;
 
 	0 -> 2 ;
 	2 -> 3 ;
@@ -48,21 +48,21 @@ digraph
 
 	node [color = navyblue, fontcolor=navyblue] ;
 	edge [color = navyblue] ;
-	17 [label = "Aprendizaje Automático (3)"] ;
-	18 [label = "Combinatoria, Complejidad y Lógica (3)"] ;
-	19 [label = "Compresión de Imágenes Digitales (3)"] ;
-	20 [label = "Diseño de Sistemas con FPGA (3)"] ;
-	21 [label = "Fundamentos de Concurrencia y Movilidad (3)"] ;
-	22 [label = "Gestión de Proyectos de Procesos de Software (3)"] ;
-	23 [label = "Introducción de la Fotografía 3D (1)"] ;
+	17 [label = "Aprendizaje\nAutomático (3)"] ;
+	18 [label = "Combinatoria,\nComplejidad\ny Lógica (3)"] ;
+	19 [label = "Compresión\nde Imágenes\nDigitales (3)"] ;
+	20 [label = "Diseño de Sistemas\ncon FPGA (3)"] ;
+	21 [label = "Fundamentos\nde Concurrencia\ny Movilidad (3)"] ;
+	22 [label = "Gestión de Proyectos\nde Procesos de Software (3)"] ;
+	23 [label = "Introducción de\nla Fotografía 3D (1)"] ;
 	24 [label = "Metaheurísticas (2)"] ;
-	25 [label = "Programación Orientada a Objetos (3)"] ;
-	26 [label = "Seminario Avanzado de Teoría de Grafos (2)"] ;
+	25 [label = "Programación\nOrientada\na Objetos (3)"] ;
+	26 [label = "Seminario Avanzado\nde Teoría de Grafos (2)"] ;
 	27 [label = "Redes Neuronales (3)"] ;
-	28 [label = "Computabilidad y Teoría de Modelos (2)"] ;
+	28 [label = "Computabilidad\ny Teoría\nde Modelos (2)"] ;
 	29 [label = "Visión en Robótica (3)"] ;
-	30 [label = "Laboratorio de Redes Neuronales (3)"] ;
-	31 [label = "Teoría de la Computabilidad (3)"] ;
+	30 [label = "Laboratorio\nde Redes\nNeuronales (3)"] ;
+	31 [label = "Teoría de la\nComputabilidad (3)"] ;
 
 	8 -> 17 ;
 	8 -> 18 ;
